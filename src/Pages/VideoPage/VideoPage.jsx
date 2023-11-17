@@ -42,7 +42,7 @@ function VideoPage() {
       handleHistory();
     }
     handleViews();
-  });
+  }, []);
   return (
     <>
       <div className="Container_VideoPage">
